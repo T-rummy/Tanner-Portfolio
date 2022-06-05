@@ -9,6 +9,7 @@ body {
     background-color: #d9b6b6;
 }
 header {
+    z-index: 9999;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -25,6 +26,7 @@ header h1 {
     color: transparent;
    -webkit-text-stroke: 2px #d9b6b6;
     margin-left: 5px;
+
 
 }
 
@@ -67,44 +69,51 @@ header h1 {
  }
 
  .info {
-     background-color: #d9b6b6;
-     width: 100%;
-     display: flex;
-     flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: transparent;
-    
-    
- }
- .work {
-    padding-top: 200px;
-    width: 100%;
-    height: 900px; 
+     padding-top: 120px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: transparent;
+    flex-direction: column;
+    justify-content: space-around; 
+    background-color: #d9b6b6;
+     width: 100%;
+     background-color: transparent;
+     
     
  }
- .work h1 {
+ .info h1 {
     text-align: center;
     font-size: 80px;
     font-weight: 600;
     color: transparent;
    -webkit-text-stroke: 2px rgb(42, 48, 39);
     margin-left: 5px;
-    border-bottom: #2a3027 solid 2px;
-
- }
- .info h1 {       
-        text-align: center;
-        font-size: 80px;
-        font-weight: 600;
-        color: transparent;
-       -webkit-text-stroke: 2px rgb(42, 48, 39);
-        border-bottom: #2a3027 solid 2px;
+    
+    
         
  }
+ .bio-box{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #2a3027;
+     width: 70%;
+     height: 300px;
+     padding-right: 70%;
+     padding-left: auto;
+     border-radius: 200px;
+ }
+ .bio-box img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 70%;
+    padding-left: 10%;
+    height: 300px;
+    width: 300px;
+    border: 5px solid #2a3027;
+    border-radius: 50%;
+    
+ }
+    
  .contact-info h1 {
     text-align: center;
     font-size: 80px;
@@ -118,6 +127,7 @@ header h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
  }
     
  .portfolio-blocks div {
@@ -128,6 +138,8 @@ header h1 {
     height: 300px;
     width:300px;
     background-color: #2a3027;
+    border-radius: 50%;
+    
     
 }
 .portfolio-blocks a {
@@ -135,29 +147,24 @@ header h1 {
 }
 
 .portfolio-blocks div:hover {
-    box-shadow: 0 0 20px 0 rgba(42, 48, 39, .8);
+   background-color: transparent;
+    border: 3px  solid #2a3027;
 }
 
  .top-left {
-     font-size: 40px;
-     color:#d9b6b6;
-     margin: 30px auto auto 30px;
- }
-
- .bottom-right {
-
+    text-align: center; 
     font-size: 40px;
-    color: #d9b6b6;
-    margin: 150px auto auto 150px;
+    line-height: 1.0;
+     color:#d9b6b6;
+     margin-top: 100px;
  }
 
  .top-left:hover {
-     text-decoration: line-through #2a3027;
+    color:#2a3027;
  }
- .bottom-right:hover {
-    text-decoration: line-through #2a3027;
 
-}
+
+
 .contact-info {
     padding-top: 100px;
     margin-bottom: 100px;
