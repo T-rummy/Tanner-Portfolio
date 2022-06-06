@@ -21,6 +21,7 @@ header {
     position: sticky;
     top: 0;
     box-shadow: 0 0 20px 0 rgba(42, 48, 39, .8);
+    width: 100%;
 
 }
 header h1 {
@@ -61,8 +62,8 @@ nav {
     
 }
 .hero {
-    background-color:rgb(217, 182, 182);
-    height: 500px;
+    background-color: rgb(217, 182, 182);
+    height: fit-content;
 
     
 } 
@@ -79,10 +80,9 @@ nav {
     
  }
  .hero img {
-    width: 100%;
     margin-top: 9px;
-    margin-left: 15px;
-    max-height: auto;
+    margin-left: 15px;        
+    height: inherit;
  }
 
  .info {
