@@ -4,7 +4,9 @@
     box-sizing: border-box;
     
 }
-
+a {
+    text-decoration: none;
+}
 body {
     font-family: bebas neue, minion didot, cochin, lao mn, optima;
     background-color: #d9b6b6;
@@ -175,12 +177,17 @@ nav {
     margin-bottom: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: transparent;
     margin-top: 35%;
+    
  }
 
  .port-box {
     margin: 20px 20px;
+ }
+ .port-img {
+    background-image: url("../images/hero1-bg.jpg");
+    background-size: 135%;
+    background-position-y: bottom ;
  }
 
  .port-box:hover {
@@ -189,14 +196,21 @@ nav {
      margin: none;
      background-color: #d9b6b6;
      font-style:#2a3027;
+    
  }
- 
+ .port-img:hover {
+    height: 250px;
+    width: 250px;
+    margin: none;
+    background-color: #d9b6b6;
+    font-style:#2a3027;
+ }
 
 
 
  .top-left:hover {
     color:#2a3027;
-    background-color: #d9b6b6;
+    background-color: transparent;
  }
 
 
