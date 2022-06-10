@@ -14,6 +14,7 @@ body {
     min-width: fit-content;
 
 }
+/* Header Section */
 header {
     z-index: 9999;
     display: flex;
@@ -50,6 +51,8 @@ header h1 {
     scroll-margin-top: 3em;
     padding-bottom: 5%;
 }
+/* Navigation */
+
 nav {
     width: 100%;
 }
@@ -77,6 +80,9 @@ nav {
     
     
 }
+
+/* Hero Section */
+
 .hero {
     background-color: rgb(217, 182, 182);
     height: fit-content;
@@ -115,6 +121,8 @@ nav {
     
 }
 
+/* About Section */
+
  .bio-box{ 
     display: flex;
     flex-wrap: wrap;
@@ -139,6 +147,9 @@ nav {
     text-align: center;
     margin: auto 5% auto 5%;
 }
+
+/* Project Section */
+
  .portfolio-blocks {
    display: flex;
     justify-content: space-around;
@@ -199,7 +210,7 @@ nav {
 font-size:25px ;
  }
 
-
+/* Contact Section */
 
 .contact-info {
    
@@ -215,6 +226,7 @@ font-size:25px ;
     align-items: center;
     font-size: 25px;
 }
+/* Footer */
 
 footer {
    
@@ -222,6 +234,9 @@ footer {
     height: 100px;
     min-width: 437px;
 }
+
+/* Media Queries */
+
  @media screen and (max-width: 980px) {
  
 }
